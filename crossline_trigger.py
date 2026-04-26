@@ -141,7 +141,8 @@ def main():
 
             if time.time() - detect_start > DETECTION_TIME:
                 mode = "line"
-
+                prev_motion = 0
+        
         cv2.putText(display, f"MODE: {mode}", (10,30),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
 
