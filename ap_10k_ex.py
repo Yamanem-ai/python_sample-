@@ -290,7 +290,7 @@ def vis_pose_result(img, result):
 # 外部呼び出しAPI
 # ======================
 def create_models(
-    env_id=0,
+    env_id=2,
     pose_model_type="hrnet32",
     detection_model_type="yolox",
     use_detector=True,
