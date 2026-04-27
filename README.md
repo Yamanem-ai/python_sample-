@@ -1,7 +1,7 @@
 #ailia MODELsのダウンロードサイト (ailia SDKのインストール方法も説明あり)
 　https://github.com/ailia-ai/ailia-models/blob/master/TUTORIAL_jp.md
 
-#推論用を入手してください
+#推論用サンプル動画を入手してください
 
 イノシシ動画を"animal01.mp4"として使っています。
 同様の動画を著作権フリーのサイトから入手し、同じ名前に変更した上でフォルダー内に保存してください。
