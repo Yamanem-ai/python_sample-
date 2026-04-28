@@ -2,7 +2,7 @@ import time
 import os
 import sys
 import cv2
-import onnxruntime
+#import onnxruntime
 
 from dab_detr_utils import Detect
 
