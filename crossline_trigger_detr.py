@@ -132,7 +132,7 @@ def main():
             prev_motion = motion_count
 
         # ======================
-        # YOLOX
+        # DETR
         # ======================
         elif mode == "detect":
 
