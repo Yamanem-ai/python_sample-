@@ -24,4 +24,9 @@
   
   crossline_trigger_detr.py (これがメインのプログラムになる)
 
+#dense_prediction_transformer用のスクリプト(ailia-models-master/image_segmentation/dense_prediction_transformers/の下におく);
+
+  dense_prediction_transformers_ex.py (外部からアクセス用のAPIを挿入済み)
+
+  crossline_trigger_dpt.py (メインのプログラム)
 
