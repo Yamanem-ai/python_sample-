@@ -30,3 +30,8 @@
 
   crossline_trigger_dpt.py (メインのプログラム)
 
+#segment_anything_2用のスクリプト(ailia-models-master/image_segmentation/segment-anything-2/の下におく);
+  
+  segment_anything_2_ex.py (外部からアクセス用のAPIを挿入済み)
+  
+  gui_tracker.py (メインのプログラム)
