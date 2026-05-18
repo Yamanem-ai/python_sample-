@@ -12,26 +12,37 @@
 
 　python3 crossline_trigger_**.py (yolox以外は名前を変えています)
 
-#yolox用のスクリプト (ailia-models-master/object_detection/yolox/の下に置く);
+#01 yolox用のスクリプト (ailia-models-master/object_detection/yolox/の下に置く);
 
  yolox_ex.py (外部からアクセス用のAPIを挿入済み)
  
  crossline_trigger.py (これがメインのプログラムになる)
 
-#dab-detr用のスクリプト (ailia-models-master/object_detection/dab-detr/の下に置く);
+#02 dab-detr用のスクリプト (ailia-models-master/object_detection/dab-detr/の下に置く);
 
   dab_detr_ex.py (外部からアクセス用のAPIを挿入済み)
   
   crossline_trigger_detr.py (これがメインのプログラムになる)
 
-#dense_prediction_transformer用のスクリプト(ailia-models-master/image_segmentation/dense_prediction_transformers/の下におく);
+#03 dense_prediction_transformer用のスクリプト(ailia-models-master/image_segmentation/dense_prediction_transformers/の下におく);
 
   dense_prediction_transformers_ex.py (外部からアクセス用のAPIを挿入済み)
 
   crossline_trigger_dpt.py (メインのプログラム)
 
-#segment_anything_2用のスクリプト(ailia-models-master/image_segmentation/segment-anything-2/の下におく);
+#04 segment_anything_2用のスクリプト(ailia-models-master/image_segmentation/segment-anything-2/の下におく);
   
   segment_anything_2_ex.py (外部からアクセス用のAPIを挿入済み)
   
   gui_tracker.py (メインのプログラム)
+
+#05 strong_sort用のスクリプト (ailia-models-master/object_tracking/strong_sort/の下に置く);
+
+  strongsort_ex_A.py (カメラA用のローカルID追跡用)
+
+  strongsort_ex_B.py (カメラB用のローカルID追跡用)
+
+  global_tracker.py (グローバルID追跡用)
+
+  multi_camera.py (メインのプログラム)
+  
