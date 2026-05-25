@@ -45,4 +45,10 @@
   global_tracker.py (グローバルID追跡用)
 
   multi_camera.py (メインのプログラム)
+
+ #06 bytetrack用のスクリプト (ailia-models-master/object_tracking/bytetrack/の下に置く);
+
+   bytetrack_ex.py (外部からのアクセス用のAPIを挿入済み)
+
+   people_counter.py (メインのプログラム)
   
