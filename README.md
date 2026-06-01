@@ -51,4 +51,12 @@
    bytetrack_ex.py (外部からのアクセス用のAPIを挿入済み)
 
    people_counter.py (メインのプログラム)
+
+ #07 facemesh_v2用のスクリプト (ailia-models-master/face_recognition/facemesh_v2/の下に置く);
+
+   facemesh_v2_ex.py (外部からのアクセス用のAPIを挿入済み)
+
+   dms_monitor.py (メインのプログラム: 3D顔面POSE無し)
+
+   dms_monitor_plus.py (メインのプログラム: 3D顔面POSE有り)
   
