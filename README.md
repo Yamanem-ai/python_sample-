@@ -59,4 +59,16 @@
    dms_monitor.py (メインのプログラム: 3D顔面POSE無し)
 
    dms_monitor_plus.py (メインのプログラム: 3D顔面POSE有り)
-  
+
+ #08 clip用のスクリプト　(ailia-models-master/image_classification/clip/の下におく);
+
+   clip_ex.py (外部からのアクセス用のAPIを挿入済み)
+
+   monitor.py (メインのプログラム)
+
+   yolox_ex.py (呼び出されるので、フォルダー内に置いておく yoloxのonnxファイルは起動時にダウンロードされます)
+
+   yolox_utils.py (呼び出されるので、フォルダー内に置いておく)
+
+   headphone2.mov (サンプルとして置いておきます)
+   
