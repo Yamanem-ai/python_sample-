@@ -71,4 +71,9 @@
     yolox_utils.py (呼び出されるので、フォルダー内に置いておく)
 
     headphone2.mov (サンプルとして置いておきます)
-   
+
+#09 clap用のスクリプト (ailia-models-master/audio_processing/clap/の下に置く):
+
+    clap_ex.py (外部からのアクセス用のAPIを挿入すみ)
+
+    key_open.py (メインのプログラム)
