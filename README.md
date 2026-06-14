@@ -8,15 +8,15 @@
 
 #クロスライン検知スクリプトの起動コマンド
 
-　  python3 crossline_trigger.py (yoloxのみ)
+　   python3 crossline_trigger.py (yoloxのみ)
 
-　  python3 crossline_trigger_**.py (yolox以外は名前を変えています)
+　   python3 crossline_trigger_**.py (yolox以外は名前を変えています)
 
 #01 yolox用のスクリプト (ailia-models-master/object_detection/yolox/の下に置く);
 
-   yolox_ex.py (外部からアクセス用のAPIを挿入済み)
+    yolox_ex.py (外部からアクセス用のAPIを挿入済み)
  
-   crossline_trigger.py (これがメインのプログラムになる)
+    crossline_trigger.py (これがメインのプログラムになる)
 
 #02 dab-detr用のスクリプト (ailia-models-master/object_detection/dab-detr/の下に置く);
 
