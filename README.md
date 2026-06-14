@@ -70,5 +70,5 @@
 
     yolox_utils.py (呼び出されるので、フォルダー内に置いておく)
 
-   headphone2.mov (サンプルとして置いておきます)
+    headphone2.mov (サンプルとして置いておきます)
    
