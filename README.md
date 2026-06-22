@@ -77,3 +77,10 @@
     clap_ex.py (外部からのアクセス用のAPIを挿入すみ)
 
     key_open.py (メインのプログラム)
+
+#10 padim用のスクリプト (ailia-models-master/anomaly_detection/padim/の下に置く):
+
+    padim_api.py (外部からのアクセス用のAPIを挿入済み)
+
+    post_meeting_check.py (メインのプログラム)
+    
