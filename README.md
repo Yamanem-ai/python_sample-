@@ -83,4 +83,14 @@
     padim_api.py (外部からのアクセス用のAPIを挿入済み)
 
     post_meeting_check.py (メインのプログラム)
+
+#11 sensevoice&gemma3用のスクリプト (ailia-models-master/audio_processing/sensevoice/の下に置く):
+
+    example_ailia_llm.py (gemma3を単体で動かすデモアプリ)
+
+    gemma_api.py (外部からのアクセス用のAPIを挿入済み)
+
+    sensevoice_api.py (外部からのアクセス用のAPIを挿入済み)
+
+    voice_assistant.py (メインのプログラム)
     
