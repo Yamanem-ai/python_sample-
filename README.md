@@ -93,4 +93,25 @@
     sensevoice_api.py (外部からのアクセス用のAPIを挿入済み)
 
     voice_assistant.py (メインのプログラム)
+
+#12 voice_assistant_bertvits2用のスクリプト&ファイル (ailia-models-master/audio_processing/voice_assistant_bertvits2を作り、配下に置く)
+
+    まずは、bert-vits2フォルダー内で、python3 bert-vits2.pyを起動してください。
+
+    起動後、onnxファイルや辞書フォルダ (unidic-lite)がダウンロードされるので、このフォルダーをコピペあるいは名前を変更してvoice_assistant_bertbits2としてください
+
+    tokenizerフォルダー (すでに配置されていたら、無視してください)
     
+    symbols.py (すでに配置されていたら、無視してください)
+
+    vits2utils.py (すでに配置されていたら、無視してください)
+   
+    bert_vits2_api.py (外部からのアクセス用のAPIを挿入済み)
+
+    gemma_api.py (外部からのアクセス用のAPIを挿入済み)
+
+    sensevoice_api.py (外部からのアクセス用のAPIを挿入済み)
+
+    voice_assistant_plus.py (メインのプログラム)
+
+    voice_assistant_gui.py (メインのプログラム)
