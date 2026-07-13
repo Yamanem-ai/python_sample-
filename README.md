@@ -96,11 +96,13 @@
 
 #12 voice_assistant_bertvits2用のスクリプト&ファイル (ailia-models-master/audio_processing/voice_assistant_bertvits2を作り、配下に置く)
 
+    前回使用したsensevoiceフォルダーに入っている以下のフォルダーを持ってくる。"funasr_ailia" "s2t_config" "tokenizer" "vad_config" 
+
     まずは、bert-vits2フォルダー内で、python3 bert-vits2.pyを起動してください。
 
     起動後、onnxファイルや辞書フォルダ (unidic-lite)がダウンロードされるので、このフォルダーをコピペあるいは名前を変更してvoice_assistant_bertbits2としてください
 
-    tokenizerフォルダー (すでに配置されていたら、無視してください)
+    tokenizerフォルダー にbert-vits2.pyのtokenizerフォルダーの中身を追加してください　(clap-htsat-fused, deberta-v2-large-japanese-char-wwm)
     
     symbols.py (すでに配置されていたら、無視してください)
 
@@ -115,3 +117,20 @@
     voice_assistant_plus.py (メインのプログラム)
 
     voice_assistant_gui.py (メインのプログラム)
+
+#13 voice_assistant_gptsovits用のスクリプト&ファイル (ailia-models-master/audio_processing/voice_assistant_gptsovitsを作り、配下に置く)
+
+    前々回使用したsensevoiceフォルダーに入っている以下のフォルダーを持ってくる。"funasr_ailia" "s2t_config" "tokenizer" "vad_config" 
+   
+    example_ailia_voice.py　(gpt_sovitsのailia_voiceバージョン)
+
+    gemma_api.py (外部からのアクセス用のAPIを挿入済み)
+
+    sensevoice_api.py (外部からのアクセス用のAPIを挿入済み)
+
+    gpt_sovits_ailia_api.py (外部から呼び出しようにAPI化)
+
+    voice_assistant_plus.py (メインのプログラム)
+
+    voice_assistant_gui.py (メインのプログラム)
+
