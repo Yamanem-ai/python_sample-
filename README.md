@@ -100,7 +100,7 @@
 
     まずは、bert-vits2フォルダー内で、python3 bert-vits2.pyを起動してください。
 
-    起動後、onnxファイルや辞書フォルダ (unidic-lite)がダウンロードされるので、このファイルをvoice_assistant_bertbits2に移動してください。
+    起動後、onnxファイルや辞書フォルダ (unidic-lite)がダウンロードされるので、これらをvoice_assistant_bertbits2に移動してください。
 
     tokenizerフォルダー にbert-vits2.pyのtokenizerフォルダーの中身を追加してください　(clap-htsat-fused, deberta-v2-large-japanese-char-wwm)
     
