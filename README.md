@@ -145,5 +145,22 @@
     gpt_sovits_ailia_api.py (外部から呼び出しようにAPI化)
 
     voice_assistant_gui.py (メインのプログラム)
+
+#15 lightglue用のスクリプト (ailia-models-master/image_manipulation/lightglue/の下に置く)
+
+    camera_path.py (カメラの軌跡確認用スクリプト)
+
+    desk2.MOV (YouTubeで使用していた動画)
+
+    extract_frames.py (サンプル動画から画像を10枚切り出すスクリプト)
+
+    lightglue_api.py (外部から呼び出し用にAPI化)
+
+    reconstruct_pair.py (画像1ペアから3D生成を確認するスクリプト)
+
+    merge_pointcloud.py (メインプログラム)
+
+    view_ply.py (.plyファイルを描画させるスクリプト)
+
     
 
