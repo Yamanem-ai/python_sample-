@@ -134,7 +134,7 @@
 
     voice_assistant_gui.py (メインのプログラム)
 
-#14 voice_assistant_silia用のスクリプト　(ailia-models-master/audio_processing/voice_assistant_ailiaを作り、配下に置く)
+#14 voice_assistant_ailia用のスクリプト　(ailia-models-master/audio_processing/voice_assistant_ailiaを作り、配下に置く)
 
     準備しておくフォルダーは、前回と同様　"funasr_ailia" "s2t_config" "tokenizer" "vad_config" 
 
