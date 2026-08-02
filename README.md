@@ -146,7 +146,7 @@
 
     voice_assistant_gui.py (メインのプログラム)
 
-#15 lightglue用のスクリプト (ailia-models-master/image_manipulation/lightglue/の下に置く)
+#15 lightglue用のスクリプト (ailia-models-master/3d_pointcloud/lightglue/の下に置く)
 
     camera_path.py (カメラの軌跡確認用スクリプト)
 
@@ -161,6 +161,22 @@
     merge_pointcloud.py (メインプログラム)
 
     view_ply.py (.plyファイルを描画させるスクリプト)
+
+#16 vggt用のスクリプト　(vggt-mainの下に置く)
+
+    このサンプルはailia-modelsに含まれていません。ご自身でGithubからダウンロードしてください。
+    
+    Githubサイト：https://github.com/facebookresearch/vggt
+
+    以下、動画で使用したサンプル；
+
+    framesフォルダー (サンプルの画像を３枚)
+
+    demo_viser.py (オリジナルスクリプトのcuda周りを修正したもの)
+
+    demo_open3d.py (結果表示をviserではなく、open3dで直接描画するように修正したスクリプト)
+
+    
 
     
 
