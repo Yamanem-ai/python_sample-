@@ -176,7 +176,11 @@
 
     demo_open3d.py (結果表示をviserではなく、open3dで直接描画するように修正したスクリプト)
 
-    
+#17 BEVFormerのスクリプト (ailia-models-master/automonous_driving/bevformer/の下に置く)
+
+    このファイルの他、nuscenesのデータをダウンロードし、動画で説明しているように必要なフォルダーを配置してください。
+
+    bevformer_nuscenes.py (Nuscenes dataのローダーおよび結果を動画で表示させるスクリプト)
 
     
 
