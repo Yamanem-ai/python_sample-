@@ -182,3 +182,16 @@
 
     bevformer_nuscenes.py (Nuscenes dataのローダーおよび結果を動画で表示させるスクリプト)
 
+#18 BEVFormer_pytorchのスクリプト (mmdetection3d/BEVFormer/tools/analysis_tools/の下に置く)
+
+    demo_bevformer.py (nuscenesデータローダー入り)
+
+    コマンド例１(Longバージョン、カメラ映像compose、imshow版、v2-base);
+
+    python3 tools/analysis_tools/demo_bevformer.py projects/configs/bevformerv2/bevformerv2-r50-t1-base-24ep.py --checkpoint work_dirs/bevformer_v2-R50-t1-base/epoch_24.pth --samples 1000
+
+    コマンド例２ (Longバージョン、カメラ映像compose, imshow版、tiny-fp16)
+
+    python3 tools/analysis_tools/demo_bevformer.py projects/configs/bevformer_fp16/bevformer_tiny_fp16.py --checkpoint work_dirs/bevformer_tiny_fp16/bevformer_tiny_fp16_epoch_24.pth --samples 1000
+
+    注意：動画ではwork_dirsについて説明していませんでした。BEVFormerのGithubにModel Zooがあり、対象のモデルをダウンロードできます。コマンド通りのフォルダーを作成して配置してください。
