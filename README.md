@@ -195,3 +195,10 @@
     python3 tools/analysis_tools/demo_bevformer.py projects/configs/bevformer_fp16/bevformer_tiny_fp16.py --checkpoint work_dirs/bevformer_tiny_fp16/bevformer_tiny_fp16_epoch_24.pth --samples 1000
 
     注意：動画ではwork_dirsについて説明していませんでした。BEVFormerのGithubにModel Zooがあり、対象のモデルをダウンロードできます。コマンド通りのフォルダーを作成して配置してください。
+
+#19 Whisper_transcribeのスクリプト (ailia-models-master/audio_processing/whisper/の下に置く)
+
+    whisper_api.py (外部から呼び出しようにAPI化)
+
+    realtime_processing.py (メインのGUIプログラム)
+    
