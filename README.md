@@ -201,4 +201,10 @@
     whisper_api.py (外部から呼び出しようにAPI化)
 
     realtime_processing.py (メインのGUIプログラム)
-    
+
+#20 Whisper_translateのスクリプト　(ailia-models-master/audio_processing/whisper/の下に置く)
+
+
+    whisper_api.py (外部から呼び出しようにAPI化、処理関数をtranscribe->translateに変更、mic.read(48000)に変更済み)
+
+    realtime_processing.py　(メインのプログラム、#19と同じ)
