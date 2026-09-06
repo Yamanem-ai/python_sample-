@@ -208,3 +208,9 @@
     whisper_api.py (外部から呼び出しようにAPI化、処理関数をtranscribe->translateに変更、mic.read(48000)に変更済み)
 
     realtime_processing.py　(メインのプログラム、#19と同じ)
+
+#21 Windows_voice_assistant
+
+    今回は、新しいコードを作っていません。#14 Voice_assistant_ailiaで使用したコードを使っています。
+
+    
