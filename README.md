@@ -217,4 +217,10 @@
 
     monitor1.py (自転車のながら運転検出用メインプログラム。頭部クロップ位置を調整済み)
     
-   
+#23 Florence2 (ailia-models-master/vision_language_model/florence2/の下に置く)
+
+    extract_frames.py （lightglueの回で使用したものと同じ）
+
+    headphone2.mov
+
+    動画で使用したmonitor.pyは、ailia-models-master/image_classification/clip/のものをそのまま使用してください
