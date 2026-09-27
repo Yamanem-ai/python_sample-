@@ -224,3 +224,11 @@
     headphone2.mov
 
     動画で使用したmonitor.pyは、ailia-models-master/image_classification/clip/のものをそのまま使用してください
+
+#24 NIDS (ailia-models-master/network_intrusion_detection/falcon-adapter-network-packet/の下に置く)
+
+    NIDS_Transformer.py （推論スクリプト）
+
+    HEX_collection.py (PCのネットワークインターフェースからパケットをキャプチャーするスクリプト)
+
+    nids_manager.py (管理用メインプログラム)
