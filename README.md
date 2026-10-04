@@ -232,3 +232,17 @@
     HEX_collection.py (PCのネットワークインターフェースからパケットをキャプチャーするスクリプト)
 
     nids_manager.py (管理用メインプログラム)
+
+#25 Qwen2_VL (qwen2_vl関連は　ailia-models-master/vision_language_model/qwen2_vl/の下へ　clip関連はailia-models-master/image_classification/clip/の下に置く)
+
+    phone2.MP4 (スマホ検出用動画ファイル)
+    
+    extract_frames.py （動画からフレームを抽出するスクリプト）
+
+    monitor2.py (メインプログラム、clipフォルダー内で使用。)
+
+    clip_ex.py (monitor2.pyから呼び出せるようAPIを設定済み)
+
+    yolox_ex.py (monitor2.pyから呼び出せるようAPIを設定済み)
+
+    yolox_utils.py, yolox_opt.onnx, yolox_opt.onnx.prototxtファイルはyoloxフォルダーからコピペしてclipフォルダーに配置してください。
