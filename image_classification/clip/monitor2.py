@@ -69,7 +69,7 @@ hand_text_feature = create_text_features(
 # Camera
 # ======================
 
-cap = cv2.VideoCapture("phone2.MP4")
+cap = cv2.VideoCapture("phone2.mov")
 
 if not cap.isOpened():
     raise RuntimeError("Cannot open camera")
