@@ -246,3 +246,16 @@
     yolox_ex.py (monitor2.pyから呼び出せるようAPIを設定済み、clipフォルダーの既存ファイルをそのまま使用できます)
 
     yolox_utils.py, yolox_opt.onnx, yolox_opt.onnx.prototxtファイルはyoloxフォルダーからコピペしてclipフォルダーに配置してください。
+
+
+#26 FIWARE (people_counter関連は　ailia-models-master/object_tracking/bytetrack/の下へ　CrowdCounting関連はailia-models-master/crowd_counting/crowdcount-cascaded-mtl/の下に置く)
+
+    docker-compose.yaml (dokcerコンテナーのインストール設定ファイル。どこに配置しても良いですが、配置している箇所からdockerコマンドを使用してください)
+    
+    curlコマンド_make_entity.txt (entity作成用のコマンド。コピペしてお使いください)
+
+    curlコマンド_make_subscriptions.txt (subscription作成のコマンド。コピペしてお使いください)
+    
+    people_counter_fiware.py (update_fiware_count関数を追加)
+
+    crowdcount_fiware.py (update_fiware_estimated_count関数を追加)
