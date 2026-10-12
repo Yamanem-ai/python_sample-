@@ -1,0 +1,15 @@
+curl -X POST \
+  http://localhost:1026/v2/entities \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "id": "PeopleCounter:001",
+    "type": "PeopleCounter",
+    "peopleCount": {
+      "value": 5,
+      "type": "Integer"
+    },
+    "estimatedCount": {
+      "value": 0,
+      "type": "Integer"
+    }
+  }'

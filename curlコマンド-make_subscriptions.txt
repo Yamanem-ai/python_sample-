@@ -1,0 +1,29 @@
+curl -X POST \
+  http://localhost:1026/v2/subscriptions \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "description": "Notify QuantumLeap about PeopleCounter changes",
+    "subject": {
+      "entities": [
+        {
+          "id": "PeopleCounter:001",
+          "type": "PeopleCounter"
+        }
+      ],
+      "condition": {
+        "attrs": [
+          "peopleCount",
+          "estimatedCount"
+        ]
+      }
+    },
+    "notification": {
+      "http": {
+        "url": "http://quantumleap:8668/v2/notify"
+      },
+      "attrs": [
+        "peopleCount",
+        "estimatedCount"
+      ]
+    }
+  }'

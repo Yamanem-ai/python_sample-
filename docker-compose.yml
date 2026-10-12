@@ -1,0 +1,52 @@
+services:
+  mongo:
+    image: mongo:4.4
+    container_name: fiware-mongo
+    command: --bind_ip_all
+    volumes:
+      - mongo_data:/data/db
+
+  orion:
+    image: fiware/orion
+    container_name: fiware-orion
+    depends_on:
+      - mongo
+    command: -dbURI mongodb://mongo:27017/orion
+    ports:
+      - "1026:1026"
+      
+  grafana:
+    image: grafana/grafana
+    container_name: fiware-grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+  crate-db:
+    image: crate:latest
+    container_name: fiware-cratedb
+    ports:
+      - "4200:4200"
+      - "5432:5432"
+    command: >
+      -Cnetwork.host=_site_
+      -Chttp.cors.enabled=true
+      -Chttp.cors.allow-origin="*"
+    volumes:
+      - crate_data:/data
+
+  quantumleap:
+    image: orchestracities/quantumleap:latest
+    container_name: fiware-quantumleap
+    depends_on:
+      - crate-db
+    environment:
+      - CRATE_HOST=crate-db
+    ports:
+      - "8668:8668"
+      
+volumes:
+  mongo_data:
+  grafana_data:
+  crate_data:
