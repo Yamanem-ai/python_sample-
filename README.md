@@ -260,7 +260,7 @@
 
     crowdcount_fiware.py (update_fiware_estimated_count関数を追加)
 
-#27 Auto_annotation_tool (ailia-models-master/vision_language/model/florence2/の下に置く)
+#27 Auto_annotation_tool (ailia-models-master/vision_language_model/florence2/の下に置く)
 
     florence2_annotation.py : input_imagesフォルダー内に使用する画像を配置しておいてください。保存先はこのスクリプトが自動で作成します。
     
