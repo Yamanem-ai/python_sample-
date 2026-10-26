@@ -1,0 +1,8 @@
+学習のコマンド;
+python3 -m yolox.tools.train -f exes/example/custom/yolox_s_umbrella.py -d 1 -b 2 --fp16 -c yolox_s.pth
+
+best_ckpt.pthを使ってデモ;
+PYTHONPATH=. python3 tools/demo.py image -f exps/example/custom/yolox_s_umbrella.py -c YOLOX_outputs/yolox_s_umbrella_bak/best_ckpt.pth --path cropped_IMG_5550.jpeg --save_result
+
+best_ckpt.pthをonnxに変換するコマンド；
+PYTHONPATH=. python3 tools/export_onnx.py -f exps/example/custom/yolox_s_umbrella.py -c YOLOX_outputs/yolox_s_umbrella_bak/best_ckpt.pth --output-name umbrella.onnx
