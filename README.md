@@ -266,15 +266,15 @@
 
 #28 Auto_annotation_viewer (ailia-models-master/vision_language_model/florence2/の下に置く)
 
-    annotation_viewer.py : pythonコマンドで起動すると、jsonファイルを指定できます。
+    annotation_viewer.py : pythonコマンドで起動すると、jsonファイルを指定できます。florence2フォルダーに置いてます。
 
-    学習環境むけコマンド.txt : YOLOXのダウンロード、インストールのコマンドと、モデル初期化用Pretrained weightのダウンロードコマンド)
+    学習環境むけコマンド.txt : YOLOXのダウンロード、インストールのコマンドと、モデル初期化用Pretrained weightのダウンロードコマンド。objet_detection/yoloxフォルダーに置いてます)
     
-    yolox_s_umbrella.py (YOLOX学習環境に使います。YOLOX/exps/example/custom/の下に置きます)
+    yolox_s_umbrella.py (YOLOX学習環境に使います。YOLOX/exps/example/custom/の下に置いて使います。本サイトではobject_detection/yoloxフォルダーに置いてます。)
 
-    学習コマンド_確認コマンド_変換コマンド (動画で使用したYOLOXのスクリプトを使用するコマンド)
+    学習コマンド_確認コマンド_変換コマンド (動画で使用したYOLOXのスクリプトを使用するコマンド。object_detection/yoloxフォルダーに置いてます)
 
-    demo.py (YOLOX/tools/demo.pyと置き換えて使う)
+    demo.py (YOLOX/tools/demo.pyと置き換えて使う。object_detection/yoloxフォルダーに置いてます)
 
     onnx2prototxt.py (ailiaのツール。今回はailia-models-master/object_detection/yolox/の下で使います)
 
