@@ -263,4 +263,23 @@
 #27 Auto_annotation_tool (ailia-models-master/vision_language_model/florence2/の下に置く)
 
     florence2_annotation.py : input_imagesフォルダー内に使用する画像を配置しておいてください。保存先はこのスクリプトが自動で作成します。
+
+#28 Auto_annotation_viewer (ailia-models-master/vision_language_model/florence2/の下に置く)
+
+    annotation_viewer.py : pythonコマンドで起動すると、jsonファイルを指定できます。
+
+    学習環境むけコマンド.txt : YOLOXのダウンロード、インストールのコマンドと、モデル初期化用Pretrained weightのダウンロードコマンド)
+    
+    yolox_s_umbrella.py (YOLOX学習環境に使います。YOLOX/exps/example/custom/の下に置きます)
+
+    学習コマンド_確認コマンド_変換コマンド (動画で使用したYOLOXのスクリプトを使用するコマンド)
+
+    demo.py (YOLOX/tools/demo.pyと置き換えて使う)
+
+    onnx2prototxt.py (ailiaのツール。今回はailia-models-master/object_detection/yolox/の下で使います)
+
+    yolox_umbrella.py (傘専用に修正したスクリプト。ailia-models-master/object_detection/yolox/の下で使います)
+    
+
+    
     
