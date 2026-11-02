@@ -279,7 +279,17 @@
     onnx2prototxt.py (ailiaのツール。今回はailia-models-master/object_detection/yolox/の下で使います)
 
     yolox_umbrella.py (傘専用に修正したスクリプト。ailia-models-master/object_detection/yolox/の下で使います)
-    
 
+#29 CLIP_StrongSORT連携 (ailia-models-master/image_classification/clip/の下に置く)
+
+    monitor3.py : メインプログラムです。
+
+    strongsort_ex.py : monitor3.pyから呼び出せるようにAPIをセット済です。
     
+    AppFreeLink.py :  StrongSORT用のモジュールです。
+
+    ecc.py: StrongSORT用のモジュールです。
+
+    GSI.py : StrongSORT用のモジュールです。
+   
     
