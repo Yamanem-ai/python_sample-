@@ -291,5 +291,14 @@
     ecc.py: StrongSORT用のモジュールです。
 
     GSI.py : StrongSORT用のモジュールです。
-   
+
+#30 CLIP_StrongSORT連携_Global拡張 (ailia-models-master/image_classification/clip/の下に置く)
+
+    main.py : メインプログラムです。
+
+    monitor4.py : main.pyから呼び出せるようにAPIをセット済です。
     
+    global_tracker.py :  main.pyから呼び出せるようにAPIをセット済です。
+
+    strongsort_ex.py: StrongSORT用のモジュールです。前回のものと置き換えてください。
+
