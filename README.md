@@ -302,3 +302,8 @@
 
     strongsort_ex.py: StrongSORT用のモジュールです。前回のものと置き換えてください。
 
+#31 映像キャプチャー (ailia-models-master/util/の下に置く)
+
+    webcamera_utils.py : 既存のものと置き換えてください。
+
+
