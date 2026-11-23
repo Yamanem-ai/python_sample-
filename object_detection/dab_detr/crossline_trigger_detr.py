@@ -98,10 +98,15 @@ def main():
     # ======================
     # メインループ
     # ======================
+    prev_time = time.perf_counter()
+    fps = 0.0
+
     while True:
         ret, frame = cap.read()
         if not ret:
             break
+
+        #start_time = time.perf_counter()
 
         display = frame.copy()
 
@@ -132,11 +137,15 @@ def main():
             prev_motion = motion_count
 
         # ======================
-        # DETR
+        # DAB-DETR
         # ======================
         elif mode == "detect":
 
+            start_time = time.perf_counter()
             objs = detr.detect_frame(session, frame)
+            inference_time = time.perf_counter() - start_time
+            fps = 1.0 / inference_time if inference_time > 0 else 0.0
+
             display = detr.draw_results(display, objs)
 
             if time.time() - detect_start > DETECTION_TIME:
@@ -145,6 +154,9 @@ def main():
 
         cv2.putText(display, f"MODE: {mode}", (10,30),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
+
+        cv2.putText(display, f"FPS: {fps:.2f}", (10,70),
+                cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,255), 2)
 
         cv2.imshow("demo", display)
 
