@@ -306,4 +306,10 @@
 
     webcamera_utils.py : 既存のものと置き換えてください。
 
+#32 ailiaSDK_Vulkan (AIPC編) (スクリプトを更新)
+
+    crossline_trigger_detr.py : fps表示追加 (ailia-models-master/object_detection/dab_detrの下で使います)
+
+    gui_tracker.py : fps表示追加 (ailia-models-master/image_segmentation/segment-anything-2の下で使います)
+    
 
